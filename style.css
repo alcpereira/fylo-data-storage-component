@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pale-blue: hsl(243, 100%, 93%);
+  --g-blue: hsl(229, 7%, 55%);
+  --d-blue: hsl(228, 56%, 26%);
+  --dark: hsl(229, 57%, 11%);
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-image: url("./images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: var(--pale-blue);
+}
