@@ -162,6 +162,7 @@ span.big {
   .container {
     flex-direction: row;
     width: 90%;
+    max-width: 1000px;
   }
 
   .tooltip {
