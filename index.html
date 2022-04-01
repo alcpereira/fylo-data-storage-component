@@ -20,8 +20,41 @@
         <div class="header-top">
           <img src="./images/logo.svg" alt="" />
         </div>
+        <div class="header-bot">
+          <div class="icon-container">
+            <img src="./images/icon-document.svg" alt="Document icon" />
+          </div>
+          <div class="icon-container">
+            <img src="./images/icon-folder.svg" alt="Folder icon" />
+          </div>
+          <div class="icon-container">
+            <img src="./images/icon-upload.svg" alt="Upload" />
+          </div>
+        </div>
       </header>
-      <main>You’ve used 815 GB of your storage 185 GB Left 0 GB 1000 GB</main>
+      <main>
+        <div class="label">
+          You’ve used <span class="bold">815 GB</span> of your storage
+        </div>
+        <div class="loading-bar">
+          <div class="background-bar">
+            <div class="loaded-bar">
+              <div class="cursor"></div>
+            </div>
+          </div>
+          <div class="loading-label">
+            <span class="bold">0 GB</span>
+            <span class="bold">1000 GB</span>
+          </div>
+        </div>
+        <div class="tooltip">
+          <div class="tooltip-text">
+            <span class="bold big">185</span>
+            <span class="gray">GB LEFT</span>
+          </div>
+          <div id="triangle-code" class="tooltip-queue"></div>
+        </div>
+      </main>
     </div>
 
     <!-- <div class="attribution">
